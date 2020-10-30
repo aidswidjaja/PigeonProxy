@@ -11,7 +11,7 @@
         <<< Back</a> <br><br>
             <img src="res/eggs.png" height="100">
             <h1>join a game!</h1>
-            <h3>PigeonProxy - play shellshock.io at school!</h3>
+            <h3>PigeonProxy - play shellshock.io with friends at school!</h3>
             <p>
                 Currently, any games started through PigeonProxy will be published on the below database. In the future, we plan to add a feature that lets you decide whether you'd like to announce games made on PigeonProxy, or keep it under wraps.
 

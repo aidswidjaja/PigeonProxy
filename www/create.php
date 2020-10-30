@@ -11,18 +11,17 @@
         <<< Back</a> <br><br>
             <img src="res/bacon-and-eggs.png" height="100">
             <h1>create a game!</h1>
-            <h3>PigeonProxy - play shellshock.io at school!</h3>
+            <h3>PigeonProxy - play shellshock.io with friends at school!</h3>
             <p>
                 Currently, creating a game on PigeonProxy has limited functionality because I have this thing called exams and I need to study.<br><br>
 
-                <strong>For now</strong>, you can only choose from one map (Castle), two gamemodes (FFA/Teams) and one server (Sydney) but if PigeonProxy is stil enjoyed after exams, then I'll happily add more.<br><br>
+                <strong>For now</strong>, you can only choose from one map (Castle), two gamemodes (FFA/Teams) and one server (Sydney) but if PigeonProxy is stil enjoyed after exams, then I'll happily add more.<br>
 
                 <p><strong class="tip">tip!</strong> you can separate email addresses with commas, but NOT usernames. Also, usernames will only work if you've been pre-registered on the system (and if you don't know what this means, you probably haven't been pre-registered).</p>
 
-                <p><strong class="important">important!</strong> you will be sent an email with the game link around 1 minute after your request is put forward (it takes a while for the server to process your request) - please use this within 5 minutes. <strong>Ensure that emails from egg@adrian.id.au are unblocked.</strong> This is an unmonitored mailbox and you will not be successful in complaining to it. If you're still having trouble, then you know who to call! (and if you don't, it's aidswidjaja#2805 on Discord)</p>
+                <p><strong class="important">important!</strong> you will be sent an email with the game link around 1 minute after your request is put forward (it takes a while for the server to process your request) - please use this within 5 minutes. <strong>Ensure that emails from egg@adrian.id.au are unblocked.</strong> Pls also is an unmonitored mailbox and you will not be successful in complaining to it. If you're still having trouble, then you know who to call! (and if you don't, it's aidswidjaja#2805 on Discord)</p>
 
-
-                <p><strong class="important">important!</strong> check if any games were started in the last 5 minutes — if two requests are made too close together I don't know what will happen and it'll probably corrupt everything for the entire day until I get back home and fix it :/</p>
+                <p><strong class="important">important!</strong> check if any games were started in the last 5 minutes — if two requests are made too close together I don't know what will happen and it'll probably corrupt everything for the entire day until I get back home and fix it :/ in the future I plan to introduce a number of checks on this request service, but right now we're relying on user honesty and competency!</p>
 
                 <hr>
 
@@ -38,6 +37,9 @@
                             <li>if you want, you can separate emails with commas (e.g tanjiro@kamado.com, izuku@midoriya.net.au, naruto@uzumaki.org) but NOT usernames!!</li>
                             <li>if using usernames, only one username can be included per text box (unlike emails where you can add multiple</li>
                             <li>but this means you can send the link to more than one person (you can even have more than one host)</li>
+                            <li>if an email never arrives, check the database for your invite link!</li>
+                            <li>please do not submit multiple requests within 5 minutes of each other</li>
+                            <li>also check that there are no processing requests on the <a href="join.php">database</a> before you make a new one</li>
                         </ul>
                     </p>
 

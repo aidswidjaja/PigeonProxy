@@ -8,7 +8,7 @@
 
 <body>
     <h1>PigeonProxy</h1>
-    <h3>play shellshock.io at school!</h3>
+    <h3>play shellshock.io with friends at school!</h3>
     <p>
         PigeonProxy lets you play <a href="https://yolk.best">Shell Shockers</a> under any filtering service that uses the PAN-DB filtering and categorisation IP/URL database from Palo Alto Networks (which means, at school!)<br><br>
 
