@@ -7,4 +7,4 @@ Blue Wizard Digital releases alternate URLs for Shell Shockers, and while most o
 
 If you're interested in more information about PigeonProxy, visit the official project Google Doc [here](https://docs.google.com/document/d/1UA4LpxPjmrwpQwIoFoXCzsodPXYq7hSnbY52iydH0zI/edit?usp=sharing).
 
-For an end user instruction manual on how to use PigeonProxy, you'll find the official instruction manual [https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit?usp=sharing](here).
+For an end user instruction manual on how to use PigeonProxy, you'll find the official instruction manual [here](https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit?usp=sharing).
