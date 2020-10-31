@@ -39,7 +39,7 @@
                             <li>but this means you can send the link to more than one person (you can even have more than one host)</li>
                             <li>if an email never arrives, check the database for your invite link!</li>
                             <li>please do not submit multiple requests within 5 minutes of each other</li>
-                            <li>also check that there are no processing requests on the <a href="join.php">database</a> before you make a new one</li>
+                            <li>also check that there are no currently processing requests on the <a href="join.php">database</a> before you make a new one</li>
                         </ul>
                     </p>
 
