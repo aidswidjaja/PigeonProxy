@@ -23,6 +23,8 @@
     <a href="https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit?usp=sharing" class="button" style="background: #ff5b52">How to use</a>
     <a href="https://docs.google.com/document/d/1UA4LpxPjmrwpQwIoFoXCzsodPXYq7hSnbY52iydH0zI/edit?usp=sharing" class="button" style="background: #5cb85c">Project information</a>
     <a href="https://github.com/aidswidjaja/PigeonProxy" class="button" style="background: #24292e">GitHub</a>
+    <a href="https://status.adrian.id.au" class="button" style="background: #008000">Server status</a>
+
     <br><br><br><br>
 </body>
 <footer>
