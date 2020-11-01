@@ -42,7 +42,7 @@ if (isset($_POST['createForm'])) {
 
     echo("<h1>success!</h1>the cogs are spinning and the frogs are swimming... and the server has received your request! an email in 1 or 2 minutes from <strong>egg@adrian.id.au</strong> should arrive with your game link code (don't forget to check your spam folder!). 
     If it doesn't arrive, check the <a href='join.php'>database</a> and see if your game code is there.<br><br>Need help? if you're at school, ping @aidswidjaja on bchan or email widadri22 for help, otherwise, ping aidswidjaja#2805 on Discord<br><br>
-    Seeing weird messages too? please let us know using the contact details listed above, danke :D
+    And btw, if you're seeing weird error messages too, please let us know using the contact details listed above, danke :D
     
     <ul>
         <li><a href='index.php'>Return to home</a></li>

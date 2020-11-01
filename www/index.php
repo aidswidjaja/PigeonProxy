@@ -28,9 +28,9 @@
     <br><br><br><br>
 </body>
 <footer>
-    Version 0.1-alpha of PigeonProxy<br>
+    Version 0.1-alpha-rc2 of PigeonProxy<br> <!-- manually update versions -->
     <strong>Copyright &copy Pigeon and Friends 2020 - MIT License</strong><br>
     <strong><a href="https://aidswidjaja.github.io">aidswidjaja.github.io</a></strong>
+    <strong>Shell Shockers is Copyright &copy Blue Wizard Digital 2020</strong>
 </footer>
-
 </html>

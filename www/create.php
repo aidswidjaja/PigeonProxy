@@ -19,7 +19,7 @@
 
                 <p><strong class="tip">tip!</strong> you can separate email addresses with commas, but NOT usernames. Also, usernames will only work if you've been pre-registered on the system (and if you don't know what this means, you probably haven't been pre-registered).</p>
 
-                <p><strong class="important">important!</strong> you will be sent an email with the game link around 1 minute after your request is put forward (it takes a while for the server to process your request) - please use this within 5 minutes. <strong>Ensure that emails from egg@adrian.id.au are unblocked.</strong> Pls also is an unmonitored mailbox and you will not be successful in complaining to it. If you're still having trouble, then you know who to call! (and if you don't, it's aidswidjaja#2805 on Discord)</p>
+                <p><strong class="important">important!</strong> you will be sent an email with the game link around 1 minute after your request is put forward (it takes a while for the server to process your request) - please use this within 5 minutes. <strong>Ensure that emails from egg@adrian.id.au are unblocked.</strong> Pls also is an unmonitored mailbox and you will not be successful in complaining to it. If you're still having trouble, then you know who to call! (and if you don't, please <a href="https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit#bookmark=id.fulugi3ae91q">contact the developers.</a></p>
 
                 <p><strong class="important">important!</strong> check if any games were started in the last 5 minutes — if two requests are made too close together I don't know what will happen and it'll probably corrupt everything for the entire day until I get back home and fix it :/ in the future I plan to introduce a number of checks on this request service, but right now we're relying on user honesty and competency!</p>
 
@@ -35,7 +35,7 @@
                     <p>
                         <ul>
                             <li>if you want, you can separate emails with commas (e.g tanjiro@kamado.com, izuku@midoriya.net.au, naruto@uzumaki.org) but NOT usernames!!</li>
-                            <li>if using usernames, only one username can be included per text box (unlike emails where you can add multiple</li>
+                            <li>if using usernames, only one username can be included per text box (unlike emails where you can add multiple)</li>
                             <li>but this means you can send the link to more than one person (you can even have more than one host)</li>
                             <li>if an email never arrives, check the database for your invite link!</li>
                             <li>please do not submit multiple requests within 5 minutes of each other</li>
@@ -47,14 +47,14 @@
                     <strong class="form-descriptors">invitees: </strong><input type='text' name='invitees' class="form-control" id="invitees" size="125" placeholder="your friends usernames/email addresses">
                     <p>also I'm sorry not all options will be available below!! plz don't be too sad kudasai~ Please see above for the currently available options.</p>
                     <p><strong class="form-descriptors">map: </strong><select id="map" name="map">
-                                <option value="0">castle</option>
+                                <option value="0">Castle</option>
                             </select></p>
                         <p><strong class="form-descriptors">gamemode: </strong><select id="gamemode" name="gamemode">
-                                <option value="0">ffa</option>
-                                <option value="1">teams</option>
+                                <option value="0">Free For All</option>
+                                <option value="1">Teams</option>
                             </select></p>
                             <p><strong class="form-descriptors">server: </strong><select id="server" name="server">
-                                <option value="0">sydney</option>
+                                <option value="0">Sydney</option>
                             </select></p>
                             <strong class="form-descriptors">custom message: </strong><input type='text' name='message' class="form-control" id="message" size="125" placeholder="custom message that will be sent to your invitees and published on the database"><br><br>
 
@@ -66,9 +66,9 @@
             </p>
 </body>
 <footer>
-    Version 0.1-alpha of PigeonProxy<br>
+    Version 0.1-alpha-rc2 of PigeonProxy<br> <!-- manually update versions -->
     <strong>Copyright &copy Pigeon and Friends 2020 - MIT License</strong><br>
     <strong><a href="https://aidswidjaja.github.io">aidswidjaja.github.io</a></strong>
+    <strong>Shell Shockers is Copyright &copy Blue Wizard Digital 2020</strong>
 </footer>
-
 </html>

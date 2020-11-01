@@ -1,4 +1,4 @@
-# PigeonProxy
+# [PigeonProxy](https://egg.adrian.id.au)
 shellshock.io with friends at school!
 
 PigeonProxy lets you play [Shell Shockers](https://yolk.best) under any filtering service that uses the PAN-DB filtering and categorisation IP/URL database from Palo Alto Networks (which means, at school!)
