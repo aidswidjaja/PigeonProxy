@@ -24,7 +24,7 @@
             <h3>Private lobby database</h3>
             <iframe src="https://docs.google.com/spreadsheets/d/1JFK0B3SFoB-otSoUlr0QIuw4kjyS1kuPLALiGEYisr0/preview#gid=0" style="height: 500; width: 95%;"></iframe>
 
-
+<br>
 </body>
 <?php include 'footer.php';?>
 </html>

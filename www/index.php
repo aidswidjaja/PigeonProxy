@@ -22,7 +22,7 @@
     <a href="https://github.com/aidswidjaja/PigeonProxy" target="_blank" class="button" style="background: #24292e">GitHub</a>
     <a href="https://status.adrian.id.au" target="_blank" class="button" style="background: #c887cc">Server status</a>
 
-    <br><br><br><br>
+    <br><br><br>
 </body>
 <?php include 'footer.php';?>
 </html>
