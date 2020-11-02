@@ -2,7 +2,7 @@
 
 <head>
     <title>Google Classroom</title>
-    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Google_Classroom_icon.svg/1200px-Google_Classroom_icon.svg.png" />
+    <link rel="icon" type="image/png" href="res/clasroom.png" />
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -20,17 +20,17 @@
     </p><br>
     <a href="create.php" class="button" style="background: #5bc0de">Create a game</a>
     <a href="join.php" class="button" style="background: #f0ad4e">Join a game</a>
-    <a href="https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit?usp=sharing" class="button" style="background: #ff5b52">How to use</a>
-    <a href="https://docs.google.com/document/d/1UA4LpxPjmrwpQwIoFoXCzsodPXYq7hSnbY52iydH0zI/edit?usp=sharing" class="button" style="background: #5cb85c">Project information</a>
-    <a href="https://github.com/aidswidjaja/PigeonProxy" class="button" style="background: #24292e">GitHub</a>
-    <a href="https://status.adrian.id.au" class="button" style="background: #c887cc">Server status</a>
+    <a href="https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit?usp=sharing" target="_blank" class="button" style="background: #ff5b52">How to use</a>
+    <a href="https://docs.google.com/document/d/1UA4LpxPjmrwpQwIoFoXCzsodPXYq7hSnbY52iydH0zI/edit?usp=sharing" target="_blank" class="button" style="background: #5cb85c">Project information</a>
+    <a href="https://github.com/aidswidjaja/PigeonProxy" target="_blank" class="button" style="background: #24292e">GitHub</a>
+    <a href="https://status.adrian.id.au" target="_blank" class="button" style="background: #c887cc">Server status</a>
 
     <br><br><br><br>
 </body>
 <footer>
     Version 0.1-alpha-rc2 of PigeonProxy<br> <!-- manually update versions -->
     <strong>Copyright &copy Pigeon and Friends 2020 - MIT License</strong><br>
-    <strong><a href="https://aidswidjaja.github.io">aidswidjaja.github.io</a></strong>
-    <strong>Shell Shockers is Copyright &copy Blue Wizard Digital 2020</strong>
+    <strong>Shell Shockers is Copyright &copy Blue Wizard Digital 2020</strong><br>
+    <strong>A project by aidswidjaja • <a href="https://aidswidjaja.github.io">aidswidjaja.github.io</a></strong>
 </footer>
 </html>

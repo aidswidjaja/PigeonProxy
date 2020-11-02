@@ -2,7 +2,7 @@
 
 <head>
     <title>Google Classroom</title>
-    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Google_Classroom_icon.svg/1200px-Google_Classroom_icon.svg.png" />
+    <link rel="icon" type="image/png" href="res/clasroom.png" />
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -30,9 +30,9 @@
 
 </body>
 <footer>
-    Version 0.1-alpha-rc2 of PigeonProxy<br> <!-- manually update versions -->
+    Version 0.1-alpha-rc3 of PigeonProxy<br> <!-- manually update versions -->
     <strong>Copyright &copy Pigeon and Friends 2020 - MIT License</strong><br>
-    <strong><a href="https://aidswidjaja.github.io">aidswidjaja.github.io</a></strong>
-    <strong>Shell Shockers is Copyright &copy Blue Wizard Digital 2020</strong>
+    <strong>Shell Shockers is Copyright &copy Blue Wizard Digital 2020</strong><br>
+    <strong>A project by aidswidjaja • <a href="https://aidswidjaja.github.io">aidswidjaja.github.io</a></strong>
 </footer>
 </html>

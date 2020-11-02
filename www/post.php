@@ -1,6 +1,6 @@
 <head>
     <title>Google Classroom</title>
-    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Google_Classroom_icon.svg/1200px-Google_Classroom_icon.svg.png" />
+    <link rel="icon" type="image/png" href="res/clasroom.png" />
     <link rel="stylesheet" href="index.css">
 </head>
 
