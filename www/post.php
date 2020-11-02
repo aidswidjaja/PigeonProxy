@@ -24,7 +24,7 @@ if (isset($_POST['createForm'])) {
     $shellscript = '../sh/' . $selected_map . '_' . $selected_gamemode . '_' . $selected_server . '.sh'; # a predefined .sh file per request type will be processed on the server
 
     # open the data text file
-    $myfile = fopen("data.txt", "w") or die("<h1>server error :(</h1><p>Unable to open file (this is most likely because adrian forgot to <code>chown 777 data.txt</code> you forgetful frog<p><br><br><strong>please ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><a href='index.php'>return to home<a>");
+    $myfile = fopen("data.txt", "w") or die("<h1>server error :(</h1><p>Unable to open file (this is most likely because adrian forgot to <code>chown 777 data.txt</code> you forgetful frog<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><a href='index.php'>return to home<a><br>");
 
     $host = $_POST['host'] . "\n"; # store the host email/username as a variable $host
     fwrite($myfile, $host); # write the host email/username to data text file
@@ -37,7 +37,7 @@ if (isset($_POST['createForm'])) {
 
     fclose($myfile);
 
-    echo("<h1>success!</h1>the cogs are spinning and the frogs are swimming... and the server has received your request! an email in 1 or 2 minutes from <strong>egg@adrian.id.au</strong> should arrive with your game link code (don't forget to check your spam folder!). 
+    echo("<h1>success!</h1>the cogs are spinning and the frogs are swimming... and the server has received your request! an email in 1 or 2 minutes (depending on how busy the server is) from <strong>egg@adrian.id.au</strong> should arrive with your game link code (don't forget to check your spam folder!). 
     If it doesn't arrive, check the <a href='join.php'>database</a> and see if your game code is there.<br><br>Need help? if you're at school, ping @aidswidjaja on bchan or email widadri22 for help, otherwise, ping aidswidjaja#2805 on Discord<br><br>
     And btw, if you're seeing weird error messages too, please let us know using the contact details listed above, danke :D
     
@@ -49,9 +49,12 @@ if (isset($_POST['createForm'])) {
     echo ("<h3>Debugging information</strong></h3>");
     echo ("You are executing: " . $shellscript . "<br>");
     echo ("<h4>data.txt</h4>");
-    echo ("<iframe src='data.txt' style='height: 100; width: 500;'></iframe><br>");
+    echo ("<iframe src='data.txt' style='height: 100; width: 500; border: none'></iframe><br>");
     echo ("<h4>bash output:</h4>");
     $output = exec($shellscript);
-    echo "<pre>$output</pre>";
+    echo "<code>$output</code>";
+    echo ("<h4>rwx on data.txt:</h4>");
+    $rwxoutput = exec('ls -l data.txt');
+    echo ("<code>$rwxoutput</code>");
 }
 ?>
