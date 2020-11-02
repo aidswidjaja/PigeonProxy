@@ -12,7 +12,7 @@
 
                 For now, this database is only viewable for people at SAC but this is a temporary phenomenon and once exams are over I'll introduce a proper game finding system.<br>
 
-                You can also view this database at <a href=""
+                You can also view this database at <a href="https://docs.google.com/spreadsheets/d/1JFK0B3SFoB-otSoUlr0QIuw4kjyS1kuPLALiGEYisr0/edit#gid=0">io.adrian.id.au/database</a> at any time.
             </p>
             <hr>
             <h3>Most recent game</h3>
