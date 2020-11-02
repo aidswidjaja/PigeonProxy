@@ -24,7 +24,7 @@ if (isset($_POST['createForm'])) {
     $shellscript = '../sh/' . $selected_map . '_' . $selected_gamemode . '_' . $selected_server . '.sh'; # a predefined .sh file per request type will be processed on the server
 
     # open the data text file
-    $myfile = fopen("data.txt", "w") or die("server error :( - Unable to open file - please ping aidswidjaja");
+    $myfile = fopen("data.txt", "w") or die("<h1>server error :(</h1><p>Unable to open file (this is most likely because adrian forgot to <code>chown 777 data.txt</code> you forgetful frog<p><br><br><strong>please ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><a href='index.php'>return to home<a>");
 
     $host = $_POST['host'] . "\n"; # store the host email/username as a variable $host
     fwrite($myfile, $host); # write the host email/username to data text file
