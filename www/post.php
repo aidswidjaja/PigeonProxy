@@ -1,9 +1,6 @@
-<head>
-    <title>Google Classroom</title>
-    <link rel="icon" type="image/png" href="res/clasroom.png" />
-    <link rel="stylesheet" href="index.css">
-</head>
-
+<?php include 'head.php';?>
+<!DOCTYPE HTML>
+<html>
 <body>
 <?php
 if (isset($_POST['createForm'])) {
