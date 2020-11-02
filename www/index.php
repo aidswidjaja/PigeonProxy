@@ -7,7 +7,7 @@
     <p>
         PigeonProxy lets you play private games of <a href="https://yolk.best">Shell Shockers</a> with your friends, under any filtering service that uses the PAN-DB filtering and categorisation IP/URL database from Palo Alto Networks (which means, at school!)<br><br>
 
-        Blue Wizard Digital releases alternate URLs for Shell Shockers, and while most of them are blocked, some of them do work!! Unfortunately, there is one problematic issue - it doesn't show you the join link while playing in private lobbies... and that's where PigeonProxy comes in - it'll create a game for you to play with you and your friends!<br><br>
+        Blue Wizard Digital releases alternate URLs for Shell Shockers, and while most of them are blocked, some of them do work!! Unfortunately, there is one problematic issue - it doesn't show you the join link while playing in private lobbies... and that's where PigeonProxy comes in - it'll create a game for you to play with you and your friends!<br>
 
         <ul>
         <li>If you're interested in the technical tidbits about PigeonProxy, visit the official project Google Doc <a href="https://docs.google.com/document/d/1UA4LpxPjmrwpQwIoFoXCzsodPXYq7hSnbY52iydH0zI/edit?usp=sharing">here</a>.</li>
