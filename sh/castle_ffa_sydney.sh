@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-python3.6 castle_ffa_sydney.pyc
+echo castle_ffa_sydney successfully initiated
+python3.6 /home/adrian/Desktop/castle_ffa_sydney.pyc

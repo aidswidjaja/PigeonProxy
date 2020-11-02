@@ -46,8 +46,12 @@ if (isset($_POST['createForm'])) {
         <li><a href='join.php'>View database</a></li>
     </ul><hr>");
 
-    echo ("<strong>Debugging information</strong><br>");
+    echo ("<h3>Debugging information</strong></h3>");
     echo ("You are executing: " . $shellscript . "<br>");
-    echo exec($shellscript);
+    echo ("<h4>data.txt</h4>");
+    echo ("<iframe src='data.txt' style='height: 100; width: 500;'></iframe><br>");
+    echo ("<h4>bash output:</h4>");
+    $output = exec($shellscript);
+    echo "<pre>$output</pre>";
 }
 ?>

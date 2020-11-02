@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-python3.6 castle_teams_sydney.pyc
+echo castle_teams_sydney successfully initiated
+python3.6 /home/adrian/Desktop/castle_teams_sydney.pyc

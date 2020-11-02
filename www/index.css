@@ -5,6 +5,10 @@ body {
 
 /* H/t Decian Cook @ StackOverflow https://stackoverflow.com/a/8357227/6299634 */
 
+.navbuttons {
+    line-height: 50px;
+}
+
 .button {
     display: inline;
     width: 115px;
