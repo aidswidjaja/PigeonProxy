@@ -20,12 +20,12 @@
             <hr>
             <h3>Most recent game</h3>
 
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJZFTHR8VjiBC3xUF8iCMNDK8xxsvLO-GRwayKt9tdhaWE51DqPP6_oVSa5EufZTnX-SDC1ucbodwG/pubhtml?gid=130535847&single=true" height="200" width="1500"></iframe>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJZFTHR8VjiBC3xUF8iCMNDK8xxsvLO-GRwayKt9tdhaWE51DqPP6_oVSa5EufZTnX-SDC1ucbodwG/pubhtml?gid=130535847&single=true" style="height: 200; width: 95%;"></iframe>
             
             <hr>
 
             <h3>Private lobby database</h3>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJZFTHR8VjiBC3xUF8iCMNDK8xxsvLO-GRwayKt9tdhaWE51DqPP6_oVSa5EufZTnX-SDC1ucbodwG/pubhtml?gid=0&single=true" height="1000" width="1500"></iframe>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJZFTHR8VjiBC3xUF8iCMNDK8xxsvLO-GRwayKt9tdhaWE51DqPP6_oVSa5EufZTnX-SDC1ucbodwG/pubhtml?gid=0&single=true" style="height: 500; width: 95%;"></iframe>
 
 
 </body>
