@@ -10,8 +10,8 @@ echo "[update.sh] sudo git reset --hard origin/main"
 sudo git reset --hard origin/main
 echo "[update.sh] cd www"
 cd www
-echo "[update.sh] sudo chown 777 data.txt"
-sudo chown 777 data.txt
+echo "[update.sh] sudo chmod 777 data.txt"
+sudo chmod 777 data.txt
 echo "[update.sh] sudo nginx -s reload"
 sudo nginx -s reload
 echo "[update.sh] end of file."
