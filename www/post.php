@@ -57,8 +57,6 @@ if (isset($_POST['createForm'])) {
 
     echo ("<h3>Debugging information</strong></h3>");
     echo ("You are executing: " . $shellscript . "<br>");
-    echo ("<h4>data.txt</h4>");
-    echo ("<iframe src='data.txt' style='height: 100; width: 500; border: none'></iframe><br>");
     echo ("<h4>bash output:</h4>");
     $output = exec($shellscript);
     echo "<code>$output</code>";
