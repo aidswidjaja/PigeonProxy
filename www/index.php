@@ -12,7 +12,7 @@
 
         <ul>
             <li>If you're interested in the technical tidbits about PigeonProxy, visit the official project Google Doc <a href="https://docs.google.com/document/d/1UA4LpxPjmrwpQwIoFoXCzsodPXYq7hSnbY52iydH0zI/edit?usp=sharing">here</a>.</li>
-            <li>If you're just a normal user who wants to lear how to use PigeonProxy to set up games for you and your friends, you'll find the official instruction manual <a href="https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit?usp=sharing">here</a>.</li>
+            <li>If you're just a normal user who wants to learn how to use PigeonProxy to set up games for you and your friends, you'll find the official instruction manual <a href="https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit?usp=sharing">here</a>.</li>
         </ul>
         <p><strong class="tip">tip!</strong> we've set the tab name of this webpage to say Google Classroom to make things a bit more inconspicious! but please don't play during class :(</p>
     </p><br>
@@ -21,6 +21,7 @@
         <a href="join.php" class="button" style="background: #f0ad4e">Join a game</a>
         <a href="https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit?usp=sharing" target="_blank" class="button" style="background: #ff5b52">How to use</a>
         <a href="https://docs.google.com/document/d/1UA4LpxPjmrwpQwIoFoXCzsodPXYq7hSnbY52iydH0zI/edit?usp=sharing" target="_blank" class="button" style="background: #5cb85c">Project information</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScp4Nvt5ksDqMnDJn4dguU2id_kNDTmC-aoaVa4jL_oJ8zTmA/viewform" target="_blank" class="button" style="background: #663399">Username/database request</a>
         <a href="https://github.com/aidswidjaja/PigeonProxy" target="_blank" class="button" style="background: #24292e">GitHub</a>
         <a href="https://status.adrian.id.au" target="_blank" class="button" style="background: #c887cc">Server status</a>
     </div>

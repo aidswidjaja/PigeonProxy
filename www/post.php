@@ -19,6 +19,13 @@ if (isset($_POST['createForm'])) {
     $server_array = array('sydney');
     $selected_server = $server_array[$_POST['server']];
 
+    # find the selected database; store it as a variable $selected_database
+    # i very well am aware I am a terrible person for doing this. but I don't think many people will create their own db's and if this is the case, let's go json serialising!
+    $database_array = array(
+        'https://docs.google.com/spreadsheets/d/1JFK0B3SFoB-otSoUlr0QIuw4kjyS1kuPLALiGEYisr0/edit#gid=0'
+    );
+    $selected_database = $database_array[$_POST['database']];
+
     # append all variables to the shell script filepath being executed
 
     $shellscript = '../sh/' . $selected_map . '_' . $selected_gamemode . '_' . $selected_server . '.sh'; # a predefined .sh file per request type will be processed on the server
@@ -34,6 +41,8 @@ if (isset($_POST['createForm'])) {
 
     $message = $_POST['message'] . "\n"; # store the custom message as a variable $message
     fwrite($myfile, $message); # write the custom message to data text file
+
+    fwrite($myfile, $selected_database); # write the db uri to data text file
 
     fclose($myfile);
 

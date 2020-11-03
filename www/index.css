@@ -33,3 +33,7 @@ body {
 .form-descriptors {
     display: inline;
 }
+
+.tabcontent {
+    display: none;
+}
