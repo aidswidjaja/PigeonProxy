@@ -1,4 +1,7 @@
-aidswidjaja@gmail.com
-nstyvm@gmail.com, cowy@hats.com
-u guys suck
-https://docs.google.com/spreadsheets/d/1JFK0B3SFoB-otSoUlr0QIuw4kjyS1kuPLALiGEYisr0/edit#gid=0
+Map: castle
+Gamemode: ffa
+Server: sydney
+Database: https://docs.google.com/spreadsheets/d/1JFK0B3SFoB-otSoUlr0QIuw4kjyS1kuPLALiGEYisr0/edit#gid=0
+Custom message: 
+bob bob bob
+

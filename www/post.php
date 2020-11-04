@@ -26,25 +26,46 @@ if (isset($_POST['createForm'])) {
     );
     $selected_database = $database_array[$_POST['database']];
 
+    # find the custom message; store it as a variable $message
+    $message = $_POST['message'] . "\n";
+
     # append all variables to the shell script filepath being executed
 
     $shellscript = '../sh/' . $selected_map . '_' . $selected_gamemode . '_' . $selected_server . '.sh'; # a predefined .sh file per request type will be processed on the server
 
     # open the data text file
-    $myfile = fopen("data.txt", "w") or die("<h1>server error :(</h1><p>Unable to open file (this is most likely because adrian forgot to run update.sh and <code>chmod 777 data.txt</code> you forgetful frog<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><ul><li><a href='index.php'>return to home<a></li><br>");
+    $datafile = fopen("data.txt", "w") or die("<h1>server error :(</h1><p>Unable to open <strong>datafile</strong> (this is most likely because adrian forgot to run update.sh and <code>chmod 777 data.txt</code> you forgetful frog<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><ul><li><a href='index.php'>return to home<a></li><br>");
+    $hostfile = fopen("host.txt", "w") or die("<h1>server error :(</h1><p>Unable to open <strong>hostfile</strong> (this is most likely because adrian forgot to run update.sh and <code>chmod 777 data.txt</code> you forgetful frog<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><ul><li><a href='index.php'>return to home<a></li><br>");
+    $invitefile = fopen("invite.txt", "w") or die("<h1>server error :(</h1><p>Unable to open <strong>invitefile</strong> (this is most likely because adrian forgot to run update.sh and <code>chmod 777 data.txt</code> you forgetful frog<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><ul><li><a href='index.php'>return to home<a></li><br>");
 
-    $host = $_POST['host'] . "\n"; # store the host email/username as a variable $host
-    fwrite($myfile, $host); # write the host email/username to data text file
+    # hostfile
 
-    $invitees = $_POST['invitees'] . "\n"; # store the invitees email/username as a variable $invitees
-    fwrite($myfile, $invitees); # write the invitees email/username to data text file
+    $host = $_POST['host']; # store the host email/username as a variable $host
+    fwrite($hostfile, $host); # write the host email/username to data text file
 
-    $message = $_POST['message'] . "\n"; # store the custom message as a variable $message
-    fwrite($myfile, $message); # write the custom message to data text file
+    # invitefile
 
-    fwrite($myfile, $selected_database); # write the db uri to data text file
+    $invitees = $_POST['invitees']; # store the invitees email/username as a variable $invitees
+    fwrite($invitefile, $invitees); # write the invitees email/username to data text file
 
-    fclose($myfile);
+    # datafile
+
+    $map = "Map: " . $selected_map . "\n";
+    $gamemode = "Gamemode: " . $selected_gamemode . "\n";
+    $server = "Server: " . $selected_server . "\n";
+    $database = "Database: " . $selected_database . "\n";
+    $message = "Custom message: " . "\n" . $message . "\n" . "\n";
+
+    fwrite($datafile, $map);
+    fwrite($datafile, $gamemode);
+    fwrite($datafile, $server);
+    fwrite($datafile, $database);
+    fwrite($datafile, $message);
+
+    fclose($datafile);
+    fclose($hostfile);
+    fclose($invitefile);
+
 
     echo("<h1>success!</h1>the cogs are spinning and the frogs are swimming... and the server has received your request! an email in 1 or 2 minutes (depending on how busy the server is) from <strong>egg@adrian.id.au</strong> should arrive with your game link code (don't forget to check your spam folder!). 
     If it doesn't arrive, check the <a href='join.php'>database</a> and see if your game code is there.<br><br>Need help? if you're at school, ping @aidswidjaja on bchan or email widadri22 for help, otherwise, ping aidswidjaja#2805 on Discord<br><br>

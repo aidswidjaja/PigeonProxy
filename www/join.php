@@ -9,6 +9,7 @@
             <a href="https://www.reddit.com/r/aww/comments/9k7evd/the_most_adorable_duck_i_have_ever_seen/" target="_blank"><img src="res/eggs.png" height="100"></a>
             <h1>join a game!</h1>
             <h3>PigeonProxy - play shellshock.io with friends at school!</h3>
+            <h3 style="color: red">since this is the public test beta version of PigeonProxy, database support has not been included yet. This will be added soon tho!</h3>
             <p>
                 A database is a list of games created for a specific group of people. They can be small and private, circulated amongst just a few friends, or distributed to an entire school community. You'll usually need to be part of the community whose database you'd like to view. Some databases only let certain people view the games created within it, while others might only check and see whether your email address belongs to a particular school district. For example, the NSW database might only be viewable to those with an @education.nsw.gov.au email address.<br><br>
                 People can create a database and then choose who to circulate it with - then people can create a game and allocate it to the database they want to share their invite links with. This means you can control who you share invite links with, while also being able to easily find other people's games as well<br><br>
