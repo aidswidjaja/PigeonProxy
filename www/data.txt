@@ -1,7 +1,10 @@
+ has invited you to join a game of Shell Shockers! Click the link below to join. 
+
 Map: castle
 Gamemode: ffa
 Server: sydney
-Database: https://docs.google.com/spreadsheets/d/1JFK0B3SFoB-otSoUlr0QIuw4kjyS1kuPLALiGEYisr0/edit#gid=0
 Custom message: 
-bob bob bob
+
+
+
 

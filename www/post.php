@@ -19,12 +19,13 @@ if (isset($_POST['createForm'])) {
     $server_array = array('sydney');
     $selected_server = $server_array[$_POST['server']];
 
+    # support for database removed in 0.2-alpha-rc1-ptb
     # find the selected database; store it as a variable $selected_database
     # i very well am aware I am a terrible person for doing this. but I don't think many people will create their own db's and if this is the case, let's go json serialising!
-    $database_array = array(
-        'https://docs.google.com/spreadsheets/d/1JFK0B3SFoB-otSoUlr0QIuw4kjyS1kuPLALiGEYisr0/edit#gid=0'
-    );
-    $selected_database = $database_array[$_POST['database']];
+    # $database_array = array(
+    #    'https://docs.google.com/spreadsheets/d/1JFK0B3SFoB-otSoUlr0QIuw4kjyS1kuPLALiGEYisr0/edit#gid=0'
+    # );
+    # $selected_database = $database_array[$_POST['database']];
 
     # find the custom message; store it as a variable $message
     $message = $_POST['message'] . "\n";
@@ -50,16 +51,18 @@ if (isset($_POST['createForm'])) {
 
     # datafile
 
+    $hostmsg = $host. " has invited you to join a game of Shell Shockers! Click the link below to join. \n\n";
     $map = "Map: " . $selected_map . "\n";
     $gamemode = "Gamemode: " . $selected_gamemode . "\n";
     $server = "Server: " . $selected_server . "\n";
-    $database = "Database: " . $selected_database . "\n";
-    $message = "Custom message: " . "\n" . $message . "\n" . "\n";
+    #$database = "Database: " . $selected_database . "\n";
+    $message = "Custom message: " . "\n\n" . $message . "\n\n";
 
+    fwrite($datafile, $hostmsg);
     fwrite($datafile, $map);
     fwrite($datafile, $gamemode);
     fwrite($datafile, $server);
-    fwrite($datafile, $database);
+    #fwrite($datafile, $database);
     fwrite($datafile, $message);
 
     fclose($datafile);
@@ -68,12 +71,11 @@ if (isset($_POST['createForm'])) {
 
 
     echo("<h1>success!</h1>the cogs are spinning and the frogs are swimming... and the server has received your request! an email in 1 or 2 minutes (depending on how busy the server is) from <strong>egg@adrian.id.au</strong> should arrive with your game link code (don't forget to check your spam folder!). 
-    If it doesn't arrive, check the <a href='join.php'>database</a> and see if your game code is there.<br><br>Need help? if you're at school, ping @aidswidjaja on bchan or email widadri22 for help, otherwise, ping aidswidjaja#2805 on Discord<br><br>
+    <br><br>Need help? if you're at school, ping @aidswidjaja on bchan or email widadri22 for help, otherwise, ping aidswidjaja#2805 on Discord<br><br>
     And btw, if you're seeing weird error messages too, please let us know using the contact details listed above, danke :D
     
     <ul>
         <li><a href='index.php'>Return to home</a></li>
-        <li><a href='join.php'>View database</a></li>
     </ul><hr>");
 
     echo ("<h3>Debugging information</strong></h3>");

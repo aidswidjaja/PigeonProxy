@@ -30,8 +30,8 @@
                             <li>if you want, you can separate emails with commas (e.g tanjiro@kamado.com, izuku@midoriya.net.au, naruto@uzumaki.org) but NOT usernames!!</li>
                             <li>if using usernames, only one username can be included per text box (unlike emails where you can add multiple)</li>
                             <li>but this means you can send the link to more than one person (you can even have more than one host) when using emails</li>
-                            <li>want to register for a username or database? click <a href="https://docs.google.com/forms/d/e/1FAIpQLScp4Nvt5ksDqMnDJn4dguU2id_kNDTmC-aoaVa4jL_oJ8zTmA/viewform">here</a> to apply!</li>
-                            <li>if an email never arrives, check the database for your invite link!</li>
+                            <!-- <li>want to register for a username or database? click <a href="https://docs.google.com/forms/d/e/1FAIpQLScp4Nvt5ksDqMnDJn4dguU2id_kNDTmC-aoaVa4jL_oJ8zTmA/viewform">here</a> to apply!</li>
+                            <li>if an email never arrives, check the database for your invite link!</li> -->
                             <li>it is generally safer and more secure to use a username as opposed to an email address.</li>
                         </ul>
                     </p>
@@ -49,11 +49,11 @@
                     <p><strong class="form-descriptors">server: </strong><select id="server" name="server">
                             <option value="0">Sydney</option>
                         </select></p>
-                    <p><strong class="form-descriptors">database: </strong><select id="database" name="database">
+                    <!-- <p><strong class="form-descriptors">database: </strong><select id="database" name="database">
                             <option value="0">aloys</option>
                             <option value="0">(no database)</option>
-                        </select></p>
-                    <strong class="form-descriptors">custom message: </strong><input type='text' name='message' class="form-control" id="message" size="125" placeholder="custom message that will be sent to your invitees and published on the database"><br><br>
+                        </select></p> -->
+                    <strong class="form-descriptors">custom message: </strong><input type='text' name='message' class="form-control" id="message" size="125" placeholder="custom message that will be sent to your invitees"><br><br>
 
                     <button type="submit" name='createForm' id='createForm' value="submit" style="height: 50; width: 400; font-size: 20px; font-weight: bold; background-color: #39789c; color: #ffffff;">Send request to PigeonProxy server</button>
                 </form>
