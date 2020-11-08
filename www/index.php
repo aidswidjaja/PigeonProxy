@@ -21,7 +21,7 @@
         <a href="join.php" class="button" style="background: #f0ad4e">Join a game</a>
         <a href="https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit?usp=sharing" target="_blank" class="button" style="background: #ff5b52">How to use</a>
         <a href="https://docs.google.com/document/d/1UA4LpxPjmrwpQwIoFoXCzsodPXYq7hSnbY52iydH0zI/edit?usp=sharing" target="_blank" class="button" style="background: #5cb85c">Project information</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLScp4Nvt5ksDqMnDJn4dguU2id_kNDTmC-aoaVa4jL_oJ8zTmA/viewform" target="_blank" class="button" style="background: #663399">Username/database request</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScp4Nvt5ksDqMnDJn4dguU2id_kNDTmC-aoaVa4jL_oJ8zTmA/viewform" target="_blank" class="button" style="background: #663399">Username request</a>
         <a href="https://github.com/aidswidjaja/PigeonProxy" target="_blank" class="button" style="background: #24292e">GitHub</a>
         <a href="https://status.adrian.id.au" target="_blank" class="button" style="background: #c887cc">Server status</a>
     </div>
