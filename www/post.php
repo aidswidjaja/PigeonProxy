@@ -84,7 +84,13 @@ if (isset($_POST['createForm'])) {
     $output = exec($shellscript);
     echo "<code>$output</code>";
     echo ("<h4>rwx on data.txt:</h4>");
-    $rwxoutput = exec('ls -l data.txt');
-    echo ("<code>$rwxoutput</code>");
+    $dataoutput = exec('ls -l data.txt');
+    echo ("<code>$dataoutput</code>");
+    echo ("<h4>rwx on host.txt:</h4>");
+    $hostoutput = exec('ls -l host.txt');
+    echo ("<code>$hostoutput</code>");
+    echo ("<h4>rwx on data.txt:</h4>");
+    $inviteoutput = exec('ls -l invite.txt');
+    echo ("<code>$inviteoutput</code>");
 }
 ?>
