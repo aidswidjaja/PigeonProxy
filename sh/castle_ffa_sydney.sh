@@ -1,3 +1,2 @@
 #!/bin/bash
-cd || echo "failed :("
-cnee --replay -f castle_teams_sydney.xnl --recall-window-position
+cnee --replay -f /home/adrian/castle_ffa_sydney.xnl --recall-window-position
