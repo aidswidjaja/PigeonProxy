@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-export PATH="usr/bin/cnee:$PATH"
+PATH=$PATH:~/usr/bin/cnee
 PWDOUTPUT=$("pwd")
 echo "${PWDOUTPUT}"
 cd
-OUTPUT=$("/usr/bin/cnee --replay -f castle_ffa_teams.xnl --recall-window-position")
+OUTPUT=$("cnee --replay -f castle_ffa_teams.xnl --recall-window-position")
 echo "${OUTPUT}"
