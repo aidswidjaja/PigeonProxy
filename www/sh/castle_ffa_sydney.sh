@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-pwd
+PWDOUTPUT=$("pwd")
+echo "${PWDOUTPUT}"
 cd
-cnee --replay -f castle_ffa_sydney.xnl --recall-window-position
+OUTPUT=$("cnee --replay -f castle_ffa_sydney.xnl --recall-window-position")
+echo "${OUTPUT}"
