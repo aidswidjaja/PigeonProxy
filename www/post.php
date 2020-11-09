@@ -81,15 +81,13 @@ if (isset($_POST['createForm'])) {
     echo ("<h3>Debugging information</strong></h3>");
     echo ("You are executing: " . $shellscript . "<br>");
     echo ("<h4>bash output:</h4>");
-    $output = exec($shellscript);
-    echo "<code>$output</code>";
-    echo ("<h4>rwx on data.txt:</h4>");
+    $shoutput = exec($shellscript, $output);
+    echo "<code>$shoutput</code>", $output;
+    echo ("<h4>rwx on datafiles:</h4>");
     $dataoutput = exec('ls -l data.txt');
     echo ("<code>$dataoutput</code>");
-    echo ("<h4>rwx on host.txt:</h4>");
     $hostoutput = exec('ls -l host.txt');
     echo ("<code>$hostoutput</code>");
-    echo ("<h4>rwx on data.txt:</h4>");
     $inviteoutput = exec('ls -l invite.txt');
     echo ("<code>$inviteoutput</code>");
 }
