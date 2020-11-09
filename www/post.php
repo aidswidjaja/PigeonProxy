@@ -81,8 +81,8 @@ if (isset($_POST['createForm'])) {
     echo ("<h3>Debugging information</strong></h3>");
     echo ("You are executing: " . $shellscript . "<br>");
     echo ("<h4>bash output:</h4>");
-    $shoutput = exec($shellscript, $output);
-    echo "<code>$shoutput</code>", $output;
+    $shoutput = shell_exec($shellscript);
+    echo nl2br("<code>$shoutput</code>");
     echo ("<h4>rwx on datafiles:</h4>");
     $dataoutput = exec('ls -l data.txt');
     echo ("<code>$dataoutput</code>");
