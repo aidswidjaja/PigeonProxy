@@ -1,0 +1,13 @@
+<DOCTYPE! html>
+
+<html>
+
+<body>
+
+<h1>Rabbits are epic. Don't game in class fellas!</h1>
+
+<marquee behaviour="scroll" width="100%" direction="right" height="500" scrollamount="80">No gaming in class!</marquee>
+
+</body>
+
+</html>
