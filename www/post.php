@@ -1,6 +1,7 @@
-<?php include 'head.php';?>
+<?php include 'head.php'; ?>
 <!DOCTYPE HTML>
 <html>
+
 <body>
 <?php
 if (isset($_POST['createForm'])) {
@@ -8,7 +9,7 @@ if (isset($_POST['createForm'])) {
     # h/t: https://stackoverflow.com/a/50104224/6299634
 
     # find the selected map; store it as a variable $selected_map
-    $map_array = array('castle');
+    $map_array = array('castle', 'road');
     $selected_map = $map_array[$_POST['map']];
 
     # find the selected gamemode; store it as a variable $selected_gamemode
@@ -51,7 +52,7 @@ if (isset($_POST['createForm'])) {
 
     # datafile
 
-    $hostmsg = $host. " has invited you to join a game of Shell Shockers! Click the link below to join. \n\n";
+    $hostmsg = $host . " has invited you to join a game of Shell Shockers! Click the link below to join. \n\n";
     $map = "Map: " . $selected_map . "\n";
     $gamemode = "Gamemode: " . $selected_gamemode . "\n";
     $server = "Server: " . $selected_server . "\n";
@@ -70,20 +71,16 @@ if (isset($_POST['createForm'])) {
     fclose($invitefile);
 
 
-    echo("<h1>success!</h1>the cogs are spinning and the frogs are swimming... and the server has received your request! an email in 1 or 2 minutes (depending on how busy the server is) from <strong>egg@adrian.id.au</strong> should arrive with your game link code (don't forget to check your spam folder!). 
-    <br><br>Need help? if you're at school, ping @aidswidjaja on bchan or email widadri22 for help, otherwise, ping aidswidjaja#2805 on Discord<br><br>
-    And btw, if you're seeing weird error messages too, please let us know using the contact details listed above, danke :D
-    
-    <ul>
-        <li><a href='index.php'>Return to home</a></li>
-    </ul><hr>");
+    echo ("<h1>success!</h1>the cogs are spinning and the frogs are swimming... and the server has received your request! an email in 1 or 2 minutes (depending on how busy the server is) from <strong>egg@adrian.id.au</strong> should arrive with your game link code (don't forget to check your spam folder!) it's safe to close this window btw. 
+<br><br>Need help? if you're at school, ping @aidswidjaja on bchan or email widadri22 for help, otherwise, ping aidswidjaja#2805 on Discord<br><br>
+And btw, if you're seeing weird error messages too, please let us know using the contact details listed above, danke :D
+
+<ul>
+    <li><a href='index.php'>Return to home</a></li>
+</ul><hr>");
 
     echo ("<h3>Debugging information</strong></h3>");
     echo ("You are executing: <code>" . $shellscript . "</code><br>");
-    echo ("<h4>bash output:</h4>");
-    putenv("DISPLAY=:0");
-    $output = `$shellscript`;
-    echo ("<pre>$output</pre>");
     echo ("<h4>rwx on datafiles:</h4>");
     $dataoutput = shell_exec('ls -l data.txt');
     echo ("<pre>$dataoutput</pre>");
@@ -93,3 +90,5 @@ if (isset($_POST['createForm'])) {
     echo ("<pre>$inviteoutput</pre>");
 }
 ?>
+
+<?php include 'action.php'; ?>

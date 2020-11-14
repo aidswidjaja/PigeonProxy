@@ -1,8 +1,8 @@
 <?php include 'head.php'; ?>
 <!DOCTYPE HTML>
 <html>
-
 <body>
+    <script src="res/form.js"></script>
     <a href="index.php">
         <<< Back</a> <br><br>
             <a href="https://www.youtube.com/watch?v=j9V78UbdzWI" target="_blank"><img src="res/bacon-and-eggs.png" height="100"></a>
@@ -11,7 +11,7 @@
             <p>
                 Currently, creating a game on PigeonProxy has limited functionality because I have this thing called exams and I need to study.<br><br>
 
-                <strong>For now</strong>, you can only choose from one map (Castle), two gamemodes (FFA/Teams) and one server (Sydney) but if PigeonProxy is still enjoyed after exams, then I'll happily add more.<br>
+                <strong>For now</strong>, you can only choose from two maps (Castle/Road), two gamemodes (FFA/Teams) and one server (Sydney) but if PigeonProxy is still enjoyed after exams, then I'll happily add more.<br>
 
                 <p><strong class="tip">tip!</strong> you can separate email addresses with commas, but NOT usernames. Also, usernames will only work if you've been pre-registered on the system (and if you don't know what this means, you probably haven't been pre-registered).</p>
 
@@ -41,6 +41,7 @@
                     <p>also I'm sorry that not all options will be currently available below!! plz dont kill me kudasai~</p>
                     <p><strong class="form-descriptors">map: </strong><select id="map" name="map">
                             <option value="0">Castle</option>
+                            <option value="0">Road</option>
                         </select></p>
                     <p><strong class="form-descriptors">gamemode: </strong><select id="gamemode" name="gamemode">
                             <option value="0">Free For All</option>
@@ -60,6 +61,7 @@
                 <hr>
 
             </p>
+
 </body>
 <?php include 'footer.php'; ?>
 
