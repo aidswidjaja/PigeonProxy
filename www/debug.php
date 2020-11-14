@@ -3,13 +3,18 @@
 <html>
 
 <body>
-<h1>debug zone</h1>
-<p>unless your name is adrian, no touchy!</p>
+    <h1>debug zone</h1>
+    <p>unless your name is adrian, no touchy!</p>
     <form name='web_form' id='web_form' method='post'>
         <button type="submit" name='testForm' id='testForm' value="submit" style="height: 50; width: 400; font-size: 20px; font-weight: bold; background-color: #39789c; color: #ffffff;">Send request to PigeonProxy server</button>
     </form>
     <?php
     if (isset($_POST['testForm'])) {
+
+        ini_set('display_startup_errors', 1);
+        ini_set('display_errors', 1);
+        error_reporting(-1);
+
 
         # h/t: https://stackoverflow.com/a/50104224/6299634
 
@@ -95,3 +100,7 @@
         echo ("<pre>$inviteoutput</pre>");
     }
     ?>
+
+</body>
+<?php include 'footer.php'; ?>
+</html>
