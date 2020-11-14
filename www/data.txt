@@ -1,9 +1,10 @@
- has invited you to join a game of Shell Shockers! Click the link below to join. 
+***REMOVED*** has invited you to join a game of Shell Shockers! Click the link below to join. 
 
-Map: testMap
-Gamemode: testGamemode
-Server: testServer
+Map: castle
+Gamemode: ffa
+Server: sydney
 Custom message: 
 
-this is only a test!
+
+
 
