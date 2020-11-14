@@ -90,5 +90,3 @@ And btw, if you're seeing weird error messages too, please let us know using the
     echo ("<pre>$inviteoutput</pre>");
 }
 ?>
-
-<?php include 'action.php'; ?>
