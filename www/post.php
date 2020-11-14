@@ -81,6 +81,7 @@ if (isset($_POST['createForm'])) {
     echo ("<h3>Debugging information</strong></h3>");
     echo ("You are executing: <code>" . $shellscript . "</code><br>");
     echo ("<h4>bash output:</h4>");
+    putenv("DISPLAY=:0");
     $output = `$shellscript`;
     echo ("<pre>$output</pre>");
     echo ("<h4>rwx on datafiles:</h4>");
