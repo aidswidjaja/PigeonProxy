@@ -46,39 +46,39 @@
         $shellscript = '../sh/test.sh'; # a predefined .sh file per request type will be processed on the server
 
         # open the data text file
-        $datafile = fopen("data.txt", "w") or die("<h1>server error :(</h1><p>Unable to open <strong>datafile</strong> (this is most likely because adrian forgot to run update.sh and <code>chmod 777 data.txt</code> you forgetful frog)<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><ul><li><a href='index.php'>return to home<a></li><br>");
-        $hostfile = fopen("host.txt", "w") or die("<h1>server error :(</h1><p>Unable to open <strong>hostfile</strong> (this is most likely because adrian forgot to run update.sh and <code>chmod 777 data.txt</code> you forgetful frog)<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><ul><li><a href='index.php'>return to home<a></li><br>");
-        $invitefile = fopen("invite.txt", "w") or die("<h1>server error :(</h1><p>Unable to open <strong>invitefile</strong> (this is most likely because adrian forgot to run update.sh and <code>chmod 777 data.txt</code> you forgetful frog)<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><ul><li><a href='index.php'>return to home<a></li><br>");
+        #$datafile = fopen("data.txt", "w") or die("<h1>server error :(</h1><p>Unable to open <strong>datafile</strong> (this is most likely because adrian forgot to run update.sh and <code>chmod 777 data.txt</code> you forgetful frog)<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><ul><li><a href='index.php'>return to home<a></li><br>");
+        #$hostfile = fopen("host.txt", "w") or die("<h1>server error :(</h1><p>Unable to open <strong>hostfile</strong> (this is most likely because adrian forgot to run update.sh and <code>chmod 777 data.txt</code> you forgetful frog)<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><ul><li><a href='index.php'>return to home<a></li><br>");
+        #$invitefile = fopen("invite.txt", "w") or die("<h1>server error :(</h1><p>Unable to open <strong>invitefile</strong> (this is most likely because adrian forgot to run update.sh and <code>chmod 777 data.txt</code> you forgetful frog)<p><br><br><strong>please email pigeonproxy@adrian.id.au or ping aidswidjaja</a></strong> on discord, email or bchan, thanks :/<br><br><ul><li><a href='index.php'>return to home<a></li><br>");
 
         # hostfile
 
-        $host = $_POST['host']; # store the host email/username as a variable $host
-        fwrite($hostfile, $host); # write the host email/username to data text file
+        #$host = $_POST['host']; # store the host email/username as a variable $host
+        #fwrite($hostfile, $host); # write the host email/username to data text file
 
         # invitefile
 
-        $invitees = $_POST['invitees']; # store the invitees email/username as a variable $invitees
-        fwrite($invitefile, $invitees); # write the invitees email/username to data text file
+        #$invitees = $_POST['invitees']; # store the invitees email/username as a variable $invitees
+        #fwrite($invitefile, $invitees); # write the invitees email/username to data text file
 
         # datafile
 
-        $hostmsg = $host . " has invited you to join a game of Shell Shockers! Click the link below to join. \n\n";
-        $map = "Map: " . $selected_map . "\n";
-        $gamemode = "Gamemode: " . $selected_gamemode . "\n";
-        $server = "Server: " . $selected_server . "\n";
+        #$hostmsg = $host . " has invited you to join a game of Shell Shockers! Click the link below to join. \n\n";
+        #$map = "Map: " . $selected_map . "\n";
+        #$gamemode = "Gamemode: " . $selected_gamemode . "\n";
+        #$server = "Server: " . $selected_server . "\n";
         #$database = "Database: " . $selected_database . "\n";
-        $message = "Custom message: " . "\n\n" . $message . "\n\n";
+        #$message = "Custom message: " . "\n\n" . $message . "\n\n";
 
-        fwrite($datafile, $hostmsg);
-        fwrite($datafile, $map);
-        fwrite($datafile, $gamemode);
-        fwrite($datafile, $server);
+        #fwrite($datafile, $hostmsg);
+        #fwrite($datafile, $map);
+        #fwrite($datafile, $gamemode);
+        #fwrite($datafile, $server);
         #fwrite($datafile, $database);
-        fwrite($datafile, $message);
+        #fwrite($datafile, $message);
 
-        fclose($datafile);
-        fclose($hostfile);
-        fclose($invitefile);
+        #fclose($datafile);
+        #fclose($hostfile);
+        #fclose($invitefile);
 
 
         echo ("
@@ -89,6 +89,7 @@
         echo ("<h3>Debugging information</strong></h3>");
         echo ("You are executing: <code>" . $shellscript . "</code><br>");
         echo ("<h4>bash output:</h4>");
+        putenv("DISPLAY=:0");
         $output = `$shellscript`;
         echo ("<pre>$output</pre>");
         echo ("<h4>rwx on datafiles:</h4>");
