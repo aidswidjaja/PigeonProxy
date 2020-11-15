@@ -41,7 +41,7 @@
                     <p>also I'm sorry that not all options will be currently available below!! plz dont kill me kudasai~</p>
                     <p><strong class="form-descriptors">map: </strong><select id="map" name="map">
                             <option value="0">Castle</option>
-                            <option value="0">Road</option>
+                            <option value="1">Road</option>
                         </select></p>
                     <p><strong class="form-descriptors">gamemode: </strong><select id="gamemode" name="gamemode">
                             <option value="0">Free For All</option>

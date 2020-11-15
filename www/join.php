@@ -2,7 +2,6 @@
 <!DOCTYPE HTML>
 <html>
 <script src="res/tabs.js"></script>
-
 <body>
     <a href="index.php">
         <<< Back</a> <br><br>
@@ -11,7 +10,7 @@
             <h3>PigeonProxy - play shellshock.io with friends at school!</h3>
 
             Currently, the only way to join a game is to be invited via email. Previously, there was a database option that was designed to let you view a list of games, but due to technical constraints this feature has been postponed.<br><br>
-            By technical constraints I mean I'm not actually bothered to work on it rn :D
+            By technical constraints I actually mean I'm not actually bothered to work on it rn :D
             <!-- <h3 style="color: red">since this is the public test beta version of PigeonProxy, database support has not been included yet. This will be added soon tho!</h3>
             <p>
                 A database is a list of games created for a specific group of people. They can be small and private, circulated amongst just a few friends, or distributed to an entire school community. You'll usually need to be part of the community whose database you'd like to view. Some databases only let certain people view the games created within it, while others might only check and see whether your email address belongs to a particular school district. For example, the NSW database might only be viewable to those with an @education.nsw.gov.au email address.<br><br>
