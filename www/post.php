@@ -1,11 +1,13 @@
 <?php include 'head.php'; ?>
 <!DOCTYPE HTML>
 <html>
+<script src="res/form.js"></script>
 <div id="postInfo" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; display: none;">
 <h1>brrrrr....</h1>
 <p>the cogs are spinning and the frogs are swimming... and the server has received your request! an email in 1 or 2 minutes (depending on how busy the server is) from <strong>egg@adrian.id.au</strong> should arrive with your game link code (don't forget to check your spam folder!) <strong>You can now close this window!</strong> (or leave it open to be notified when your game has been created - isn't that cooool)</p>
 <p>Need help? if you're at school, ping @aidswidjaja on bchan or email widadri22 for help, otherwise, ping aidswidjaja#2805 on Discord</p>
 <p>Below is the output of your request, and a message will display once the server has completed it. oh and also, if you're seeing weird error messages, please let us know using the contact details listed above, danke :D</p>
+<p><strong>oh yea and please do NOT reload this page (or you may receive double-ups)</strong></p>
 <ul>
     <li><a href='index.php'>Return to home</a></li>
 </ul>
@@ -87,12 +89,10 @@
         fclose($hostfile);
         fclose($invitefile);
 
-
-        echo ("<h1>success!</h1><p>your game has been created. check your emails for the link!</p>");
         echo ("<h3>Debugging information</strong></h3>");
         echo ("<strong>You are executing:</strong> <code> " . $shellscript . "</code><br>");
         $output = `$shellscript`;
-        echo ("<pre>$output</pre");
+        echo ("<pre>$output</pre>");
         echo ("<h4>rwx on datafiles:</h4>");
         $dataoutput = shell_exec('ls -l data.txt');
         echo ("<pre>$dataoutput</pre>");
@@ -100,5 +100,6 @@
         echo ("<pre>$hostoutput</pre>");
         $inviteoutput = shell_exec('ls -l invite.txt');
         echo ("<pre>$inviteoutput</pre>");
+        echo ("<hr><h1>success!</h1><p>Your game has been created. Check your emails for the link!</p><p><strong>Didn't arrive?</strong> <a href='https://docs.google.com/document/d/1-Jme2uSqgeaNkweX0GFIPHLPx5xIMq4xv8GrFBM-oSA/edit#bookmark=id.fulugi3ae91q'>tell us!</a></p>");
     }
     ?>

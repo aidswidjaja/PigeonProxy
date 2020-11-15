@@ -1,6 +1,6 @@
  has invited you to join a game of Shell Shockers! Click the link below to join. 
 
-Map: castle
+Map: road
 Gamemode: ffa
 Server: sydney
 Custom message: 

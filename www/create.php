@@ -1,8 +1,8 @@
 <?php include 'head.php'; ?>
 <!DOCTYPE HTML>
 <html>
-<body>
     <script src="res/form.js"></script>
+<body>
     <a href="index.php">
         <<< Back</a> <br><br>
             <a href="https://www.youtube.com/watch?v=j9V78UbdzWI" target="_blank"><img src="res/bacon-and-eggs.png" height="100"></a>

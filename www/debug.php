@@ -13,7 +13,9 @@
 </div>
 <?php
 if (isset($_POST['testForm'])) {
-
+    ob_start();
+    ob_end_flush();
+    ob_implicit_flush();
     echo '<style type="text/css">
     #postInfo {
         background-color: green;
