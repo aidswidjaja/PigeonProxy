@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # by adrian
 
+xhost +
 echo "[update.sh] Starting..."
 echo "[update.sh] cd /var/www/pigeonproxy"
 cd /var/www/pigeonproxy
