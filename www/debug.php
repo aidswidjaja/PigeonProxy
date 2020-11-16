@@ -27,9 +27,10 @@ if (isset($_POST['testForm'])) {
     # find the custom message; store it as a variable $message
     $message = 'this is just a test!';
     $shellscript = '../sh/test.sh'; # a predefined .sh file per request type will be processed on the server
-
+    "> /dev/null 2>/dev/null &";
+    $output = shell_exec("$shellscript > /dev/null 2>/dev/null &");
     echo ("<strong>You are executing:</strong> <code> " . $shellscript . "</code><br>");
-    $output = `$shellscript`;
+    #$output = `$shellscript`;
     echo ("<pre>$output</pre>");
     echo ("<h4>rwx on datafiles:</h4>");
     $dataoutput = shell_exec('ls -l data.txt');
