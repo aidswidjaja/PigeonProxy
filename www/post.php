@@ -6,7 +6,6 @@
 <p>the cogs are spinning and the frogs are swimming... and the server has received your request! an email in 1 or 2 minutes (depending on how busy the server is) from <strong>egg@adrian.id.au</strong> should arrive with your game link code (don't forget to check your spam folder!) <strong>You can now close this window!</strong> (or leave it open to be notified when your game has been created - isn't that cooool)</p>
 <p>Need help? if you're at school, ping @aidswidjaja on bchan or email widadri22 for help, otherwise, ping aidswidjaja#2805 on Discord</p>
 <p>Below is the output of your request, and a message will display once the server has completed it. oh and also, if you're seeing weird error messages, please let us know using the contact details listed above, danke :D</p>
-<p><strong>oh yea and please do NOT reload this page (or you'll send a double request)</strong></p>
 <ul>
     <li><a href='index.php'>Return to home</a></li>
 </ul>
