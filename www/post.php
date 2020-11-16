@@ -1,9 +1,8 @@
 <?php include 'head.php'; ?>
 <!DOCTYPE HTML>
 <html>
-<script src="res/form.js"></script>
 <div id="postInfo" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';">
-<h1><div class='loading'>brrrrr</div></h1>
+<h1>success!</h1>
 <p>the cogs are spinning and the frogs are swimming... and the server has received your request! an email in 1 or 2 minutes (depending on how busy the server is) from <strong>egg@adrian.id.au</strong> should arrive with your game link code (don't forget to check your spam folder!) <strong>You can now close this window!</strong> (or leave it open to be notified when your game has been created - isn't that cooool)</p>
 <p>Need help? if you're at school, ping @aidswidjaja on bchan or email widadri22 for help, otherwise, ping aidswidjaja#2805 on Discord</p>
 <p>Below is the output of your request, and a message will display once the server has completed it. oh and also, if you're seeing weird error messages, please let us know using the contact details listed above, danke :D</p>
