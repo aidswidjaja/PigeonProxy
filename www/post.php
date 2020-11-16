@@ -83,6 +83,7 @@
         fclose($invitefile);
 
         echo ("<strong>You are executing:</strong> <code> " . $shellscript . "</code><br>");
+        putenv("DISPLAY=:0");
         $output = `$shellscript`;
         echo ("<h4>bash output:</h4>");
         echo ("<pre>$output</pre>");
