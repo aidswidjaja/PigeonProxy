@@ -83,8 +83,7 @@
         fclose($invitefile);
 
         echo ("<strong>You are executing:</strong> <code> " . $shellscript . "</code><br>");
-        "> /dev/null 2>/dev/null &";
-        $output = `$shellscript > /dev/null 2>/dev/null &`;
+        $output = `$shellscript`;
         echo ("<h4>bash output:</h4>");
         echo ("<pre>$output</pre>");
         echo ("<h4>rwx on datafiles:</h4>");
