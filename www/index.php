@@ -25,7 +25,11 @@
         <a href="https://github.com/aidswidjaja/PigeonProxy" target="_blank" class="button" style="background: #24292e">GitHub</a>
         <a href="https://status.adrian.id.au" target="_blank" class="button" style="background: #c887cc">Server status</a>
     </div>
-    <br><br><br>
+    <br>
+    <p><strong style="color: MediumSlateBlue;">Are you a student in Year 10?</strong> Things You Should Know is a free information service run by student volunteers that can help you keep up-to-date with important events, assessments, and anything school related. Learn more at <a href="https://tysk.adrian.id.au">tysk.adrian.id.au</a>.
+    </p>
+    <br>
 </body>
 <?php include 'footer.php'; ?>
+
 </html>
